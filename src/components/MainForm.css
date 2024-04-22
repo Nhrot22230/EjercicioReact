@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #485361;
+  color: #ffffff;
+  gap: 20px;
+}
+
+.form-title {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.form-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 100px;
+}
+
+.form-row > *:only-child {
+  margin: 0 auto;
+}

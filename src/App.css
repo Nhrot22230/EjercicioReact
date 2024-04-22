@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+
+.register-list {
+  overflow-y: scroll;
+  max-height: 500px;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
