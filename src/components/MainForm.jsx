@@ -129,7 +129,7 @@ const MainForm = ( {addRegister} ) => {
           />
         </div>
         <div className="form-row">
-          <FormButton title="Enviar" type="submit" className="submit-button" />
+          <FormButton title="Agendar Cita" type="submit" className="submit-button" />
         </div>
         <div className="form-row errors-container">
           {errors.patientName && (
